@@ -14,6 +14,8 @@ import java.io.IOException;
 
 public class Dice extends PApplet {
 
+int i = 0;
+int j = 0;
 int numDie = 0;
 Die one;
 public void setup()
@@ -22,6 +24,7 @@ public void setup()
 	size(1710, 1000);
 	background(50, 50, 50);
 	noLoop();
+	one = new Die(0+i,0+j);
 }
 public void draw()
 {

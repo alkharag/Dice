@@ -1,3 +1,5 @@
+int i = 0;
+int j = 0;
 int numDie = 0;
 Die one;
 void setup()
@@ -6,6 +8,7 @@ void setup()
 	size(1710, 1000);
 	background(50, 50, 50);
 	noLoop();
+	one = new Die(0+i,0+j);
 }
 void draw()
 {
